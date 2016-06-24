@@ -14,11 +14,12 @@ public class NewTest {
   public void f() {
 	  driver.get("http://www.guru99.com/selenium-tutorial.html");  
 		String title = driver.getTitle();				 
-		Assert.assertTrue(title.contains("Free Selenium Tutorials")); 
+		
   }
   @BeforeTest
   public void beforeTest() {
 	  driver = new FirefoxDriver();  
+	  syso("Browser Invoked");
   }
 
   @AfterTest
