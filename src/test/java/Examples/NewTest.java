@@ -19,7 +19,6 @@ public class NewTest {
   @BeforeTest
   public void beforeTest() {
 	  driver = new FirefoxDriver();  
-	  syso("Browser Invoked");
   }
 
   @AfterTest
